@@ -2,32 +2,10 @@
 	body {
 		box-sizing: border-box;
 		/* background-image: linear-gradient(45deg, #0a0aff, green); */
-		height: 100%;
+		height: 600px;
 		max-width: 698px;
 		min-width: 396px;
-	}
-	
-    table{
-        border: 1px solid black;
-    }
-    table {
-        max-width: 965px;
-        min-width: 872px;
-        margin: 0px 0px 0px 58px;
-        height: 178px;
-        /* box-sizing: border-box; */
-        /* box-shadow: 10px 10px 10px; */
-        background-color: white;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1500px) {
-	body {
-		box-sizing: border-box;
-		/* background-image: linear-gradient(45deg, #0a0aff, green); */
-		height: 100%;
-		max-width: 698px;
-		min-width: 396px;
+       /* overflow: scroll;*/
 	}
     .sidebar {
         margin: 0;
@@ -47,6 +25,10 @@
         position: fixed;
         height: 17%;
         overflow: auto;
+    }
+    .add {
+        display: block;
+        border-radius: 2px;
     }
     .container {
         display: block;
@@ -81,9 +63,9 @@
     table {
         max-width: 965px;
         min-width: 872px;
-        margin: 29px 0px 0px 58px;
-        position: fixed;
-        height: auto;
+        margin: 17px 0px 0px 58px;
+        /* position: fixed; */
+        height: 426px;
         /* box-sizing: border-box; */
         /* box-shadow: 10px 10px 10px; */
         background-color: #f5f7f9;
@@ -101,4 +83,237 @@
         height: 300px;
         background: #ffffff;
     }
+    .frameStyle {
+        max-width: 1000px;
+        min-width: 879px;
+        margin: 0px 0px 0px 0px;
+        position: fixed;
+        height: 426px;
+        padding: 6px;
+    }
+    .frame {
+        max-width: 1000px;
+        border: 1px solid black;
+        min-width: 892px;
+        margin: 29px 0px 0px 58px;
+        position: fixed;
+        height: 386px;
+        position: fixed;
+    }
+    .add {
+        height: 32px;
+        min-width: 32px;
+        border-radius: 4px;
+        border: 1px solid #cfd7df;
+        color: #12344d;
+        cursor: pointer;
+        margin: 6px 0 0 500px;
+        font-size: 14px;
+        background-image: linear-gradient(to bottom,#fff,#f3f5f7);
+    }
+    .form {
+		box-sizing: border-box;
+        min-height: 300px;
+        margin: 57px 0 0 60px;
+    }
+	.form-input {
+		height: 40px;
+		margin: 15px 0 0 0px;
+		padding: 12px;
+		/* max-width: 80%; */
+		min-width: 100px;
+	}
+	.inputColumn {
+		font-size: 12px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	}
+	.valueColumn {
+		background: #fff;
+        border: none;
+        border: 1px solid #cfd7df;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 1px 24px 1px 12px;
+        overflow-y: hidden;
+        min-height: 32px;
+        width: 89%;
+	}
+	.valueButtonColumn {
+		transform: translate(30px, 0px);
+		display: block;
+		margin: 0px 0 0px 0px;
+		border-radius: 4px;
+		border: 1px solid;
+		padding: 0px;
+		height: 36px;
+		width: 269px;
+		position: absolute;
+	}
+	.inputRadioColumn {
+		margin: 0px 0 0 42px;
+	}
+	.inputCheckBoxColumn {
+		margin: 0px 0 0 35px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+	body {
+		box-sizing: border-box;
+		/* background-image: linear-gradient(45deg, #0a0aff, green); */
+		height: 600px;
+		max-width: 698px;
+		min-width: 396px;
+       /* overflow: scroll;*/
+	}
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        background:#284255;
+        width: 55px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        border: 1px solid black;
+    }
+    .innerSideBar {
+        margin: 0;
+        padding: 0;
+        background:#02b875;
+        width: 55px;
+        position: fixed;
+        height: 17%;
+        overflow: auto;
+    }
+    .add {
+        display: block;
+        border-radius: 2px;
+    }
+    .container {
+        display: block;
+        border: 1px solid black;
+        width: 1195px;
+        height: 115px;
+        margin: 0 0 0 58px;
+        box-shadow: 0px 1px 0px 0px;
+    }
+    .innerContainer {
+        background-color: #f5f7f9;
+        height: 56px;
+        border-bottom: 1px #cfd7df solid;
+        padding: 0 15px;
+        box-shadow: 0 2px 4px 0 rgb(24 50 71 / 8%);
+    }
+    .innerUpperContainer{
+        background-color: #fff;
+        height: 65px;
+        border-bottom: 1px #ebeff3 solid;
+        padding: 0 10px;
+    }
+    table {
+        border: 1px solid black;
+    
+    }
+    td {
+        height: 50px;
+        vertical-align: bottom;
+        text-align: center;
+    }
+    table {
+        max-width: 965px;
+        min-width: 872px;
+        margin: 17px 0px 0px 58px;
+        /* position: fixed; */
+        height: 426px;
+        /* box-sizing: border-box; */
+        /* box-shadow: 10px 10px 10px; */
+        background-color: #f5f7f9;
+    }
+    .thead{
+        width: 188px;
+        height: 300px;
+        background-color: #1c87c9;
+        color: #ffffff;
+        text-align: center;
+        height: 50px;
+    }
+    .tbody {
+        width: 188px;
+        height: 300px;
+        background: #ffffff;
+    }
+    .frameStyle {
+        max-width: 1000px;
+        min-width: 879px;
+        margin: 0px 0px 0px 0px;
+        position: fixed;
+        height: 426px;
+        padding: 6px;
+    }
+    .frame {
+        max-width: 1000px;
+        border: 1px solid black;
+        min-width: 892px;
+        margin: 29px 0px 0px 58px;
+        position: fixed;
+        height: 386px;
+        position: fixed;
+    }
+    .add {
+        height: 32px;
+        min-width: 32px;
+        border-radius: 4px;
+        border: 1px solid #cfd7df;
+        color: #12344d;
+        cursor: pointer;
+        margin: 6px 0 0 500px;
+        font-size: 14px;
+        background-image: linear-gradient(to bottom,#fff,#f3f5f7);
+    }
+    .form {
+		box-sizing: border-box;
+        min-height: 300px;
+        margin: 57px 0 0 60px;
+	}
+	.form-input {
+		height: 40px;
+		margin: 15px 0 0 0px;
+		padding: 12px;
+		/* max-width: 80%; */
+		min-width: 100px;
+	}
+	.inputColumn {
+		font-size: 12px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	}
+	.valueColumn {
+		background: #fff;
+        border: none;
+        border: 1px solid #cfd7df;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 1px 24px 1px 12px;
+        overflow-y: hidden;
+        min-height: 32px;
+        width: 89%;
+	}
+	.valueButtonColumn {
+		transform: translate(30px, 0px);
+		display: block;
+		margin: 0px 0 0px 0px;
+		border-radius: 4px;
+		border: 1px solid;
+		padding: 0px;
+		height: 36px;
+		width: 269px;
+		position: absolute;
+	}
+	.inputRadioColumn {
+		margin: 0px 0 0 42px;
+	}
+	.inputCheckBoxColumn {
+		margin: 0px 0 0 35px;
+	}
 }

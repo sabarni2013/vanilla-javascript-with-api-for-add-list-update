@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="file.js"></script>
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="innerSideBar"></div>
+        </div>
+        <div class="container">
+            <div class="innerUpperContainer">
+                <input type="button" class="add"  onclick="location.href='addTicket.html'" value = "Add new Ticket" >
+            </div>
+            <div class="innerContainer"></div>
+        </div>
+        
+            <form class= "form" action="table.html" method="post" id="submitForm" onsubmit="submitForm()">
+                <div class="form-input">
+                    <div  class="inputColumn">Contact Name</div>
+                    <div><input type="text" name="name" class="valueColumn" value=""></div>
+                </div>
+                <div class="form-input">
+                    <div  class="inputColumn">Contact email</div>
+                    <div><input type="text" name="email" class="valueColumn" value=""></div>
+                </div>
+                <div class="form-input">
+                    <div  class="inputColumn">Contact company</div>
+                    <div><input type="text" name="company" class="valueColumn" value=""></div>
+                </div>
+                <div class="form-input">
+                    <div  class="inputColumn">Contact phoneNo</div>
+                    <div><input type="text" name="phoneNo" class="valueColumn" value=""></div>
+                </div>
+                <div class="form-input">
+                    <div class="inputColumn">Subject</div>
+                    <div><input type="text" class="valueColumn" name="subject"> </div>
+                </div>
+                <div class="form-input">
+                    <div class="inputColumn">State</div>
+                    <div><input type="text" class="valueColumn" name="subject"> </div>
+                </div>
+                <div class="form-input">
+                    <div class="inputColumn">Pincode</span>
+                    <div><input type="text" class="valueColumn" name="group"> </div>
+                </div>
+                <div class="form-input">
+                    <input type="submit" class="valueButtonColumn" value="submit">
+                </div>
+            </form>
+           
+        
+    </body>
+</html>

@@ -9,6 +9,7 @@ window.onload = function() {
                 rowEle.appendChild(colEle);
                 colEle = document.createElement('td');
                 colEle.innerHTML = data[j].subject
+                //colEle.setAttribute("onclick",updateRow());
                 rowEle.appendChild(colEle);
                 colEle = document.createElement('td');
                 colEle.innerHTML = data[j].status
@@ -20,7 +21,9 @@ window.onload = function() {
             }           
     });
 };
-   
+function updateRow() {
+    window.alert('enter');
+}
 async function listTickets() {
     let response = await fetch('https://60a49b6cfbd48100179dc5c3.mockapi.io/api/v2/tickets', {
         method: 'GET'
