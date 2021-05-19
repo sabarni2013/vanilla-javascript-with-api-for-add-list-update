@@ -140,7 +140,7 @@
         width: 89%;
 	}
 	.valueButtonColumn {
-		transform: translate(30px, 0px);
+		transform: translate(111px, 0px);
 		display: block;
 		margin: 0px 0 0px 0px;
 		border-radius: 4px;
@@ -300,7 +300,7 @@
         width: 89%;
 	}
 	.valueButtonColumn {
-		transform: translate(30px, 0px);
+		transform: translate(111px, 0px);
 		display: block;
 		margin: 0px 0 0px 0px;
 		border-radius: 4px;
