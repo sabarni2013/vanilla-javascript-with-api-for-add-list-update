@@ -33,8 +33,8 @@ function updateRow(data) {
     document.getElementById('phone').innerText = data.phone;
 }
 async function listTickets() {
-    /*'https://60a49b6cfbd48100179dc5c3.mockapi.io/api/v2/tickets'*/
-    let response = await fetch('https://newaccount1621390341787.freshdesk.com/api/v2/tickets', {
+    // https://newaccount1621390341787.freshdesk.com/api/v2/tickets
+    let response = await fetch('https://60a49b6cfbd48100179dc5c3.mockapi.io/api/v2/tickets', {
         method: 'GET'
     });
     return await response.json();
